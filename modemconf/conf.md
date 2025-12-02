@@ -63,4 +63,7 @@ sudo dhclient -v enx3668e7e96***
 (Obviously, replace `enx3668e7e96***` with your actual interface.) Now you should be able to ping the IPs in your private network.
 
 ## Troubleshoot
-TODO
+1. Factory reset command
+```minicom
+AT&F
+```
